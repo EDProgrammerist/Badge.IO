@@ -23,7 +23,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/EDProgrammerist/Badge.IO.git
 cd Badge.IO
-
+```
 Install dependencies:
 ```bash
 npm install
@@ -31,7 +31,7 @@ npm install
 yarn install
 # or
 pnpm install
-
+```
 Run the development server:
 ```bash
 npm run dev
@@ -39,7 +39,7 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-
+```
 Open http://localhost:3000 in your browser to see the app.
 
 Credits
