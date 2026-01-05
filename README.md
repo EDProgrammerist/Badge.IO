@@ -1,69 +1,51 @@
-🎯 Badge.IO
+# Badge.IO
 
-Browse, preview, and copy thousands of GitHub README badges in seconds.
+Browse and copy thousands of GitHub README badges instantly.
 
-Badge.IO is a modern web application designed to help developers quickly find, copy, and use high-quality badges for their GitHub README files—no manual searching or formatting required.
+Badge.IO is a simple web application that helps developers quickly find and copy badge URLs for their GitHub README files.
 
-🌐 Website / Maintained By
+## Website / Maintained By
+**EDProgrammerist**
 
-EDProgrammerist
+I built this website so I can easily copy and paste badge URLs for my own projects.
 
-This project was created to streamline the process of copying and pasting badge URLs for personal and open-source projects.
-
-🔗 Repository:
+Repository:  
 https://github.com/EDProgrammerist/Badge.IO
 
-🚀 Key Features
+## Technologies Used
+- Next.js 16
+- TypeScript
+- Tailwind CSS
 
-🔍 Browse a large collection of GitHub README badges
+## Getting Started
 
-📋 One-click copy for fast integration
-
-⚡ Clean, fast, and developer-focused UI
-
-🎨 Modern design optimized for productivity
-
-🧰 Technologies Used
-
-Framework: Next.js 16
-
-Language: TypeScript
-
-Styling: Tailwind CSS
-
-🛠️ Getting Started
-
-Follow these steps to run the project locally:
-
-1. Clone the repository
+Clone the repository:
+```bash
 git clone https://github.com/EDProgrammerist/Badge.IO.git
 cd Badge.IO
 
-2. Install dependencies
+Install dependencies:
+```bash
 npm install
 # or
 yarn install
 # or
 pnpm install
 
-3. Run the development server
+Run the development server:
+```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
 
+Open http://localhost:3000 in your browser to see the app.
 
-Open http://localhost:3000
- in your browser to view the application.
+Credits
+Special thanks to alexandresanlim for the inspiration and badge assets.
 
-⚖️ Credits & Attribution
+Profile: https://github.com/alexandresanlim
 
-Special thanks to alexandresanlim for inspiration and badge assets.
-
-👤 Author Profile:
-https://github.com/alexandresanlim
-
-© Copyright
-
-© 2026 EDProgrammerist. All rights reserved.
+Copyright
+© 2026 EDProgrammerist
