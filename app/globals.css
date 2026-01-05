@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* v4 uses native CSS variables for theme configuration. 
+   You can override defaults right here.
+*/
+@theme {
+  --color-background: #0a0a0a;
+  --color-foreground: #ededed;
+  --color-purple-glow: #a855f7;
+}
+
+/* Base Styles */
+body {
+  background-color: var(--color-background);
+  color: var(--foreground);
+}
+
+/* Hide scrollbar logic (Standard CSS) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
